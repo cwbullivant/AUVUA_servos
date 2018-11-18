@@ -2,6 +2,7 @@
 #include <avr/interrupt.h>
 #include "pwm.h"
 #include "servo.h"
+#include "timer.h"
 
 //Use pins 5 and 7 for this demo
 
@@ -21,7 +22,14 @@ int main() {
     switch (currState) {
       case neutral:
         break;
-      case
+      case forward_deb:
+        break;
+      case forward:
+        break;
+      case reverse_deb:
+        break;
+      case reverse:
+        break;
     }
   }
 }
